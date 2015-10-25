@@ -1,1 +1,2 @@
 # NodeContactsApp
+# MeanBoilerPlate
