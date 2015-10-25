@@ -1,0 +1,30 @@
+{
+  "name": "contacts",
+  "version": "1.0.0",
+  "description": "An app for demonstrating mean stack authentication and restful api web app architecture",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mstivali/NodeContactsApp.git"
+  },
+  "author": "Matt Stivali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mstivali/NodeContactsApp/issues"
+  },
+  "homepage": "https://github.com/mstivali/NodeContactsApp#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "mongoose": "^4.1.12",
+    "multer": "^0.1.8",
+    "passport": "^0.3.0",
+    "passport-local": "^1.0.0"
+  }
+}

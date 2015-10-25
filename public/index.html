@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html ng-app="app">
+<head>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<title>Mean Boilerplate</title>
+</head>
+<body>
+	<nav ng-controller="NavCtrl">
+			<a ui-sref="home">Home</a> |
+			<a ng-click="logout()">Logout</a> <br/>
+	</nav>
+	<div ui-view></div>
+
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="app/app.module.js"></script>
+	<script src="app/app.router-config.js"></script>
+	<script src="app/home/home.controller.js"></script>
+	<script src="app/login/login.controller.js"></script>
+	<script src="app/register/register.controller.js"></script>
+	<script src="app/navigation.controller.js"></script>
+</body>
+</html>
